@@ -36,7 +36,20 @@ In the next section we will continue to discuss our results.
 
 ## Results.
 
-After clustering neighbourhood 
-## Discussion section where you discuss any observations you noted and any recommendations you can make based on the results.
+From the results, I observed that clusters have different size. There is one large cluster with 195 members. THis result is expected, because in Singapore the urban development is very uniform, which means that every neighbourhood is developed to be convinient for its residents. Others clusters size is vary from 7 to 44,and one cluster very small of size 2. 
 
-## Conclusion section where you conclude the report.
+For the clustering problem one bussines problem was investigated.
+### The Business Problem: 
+We have a customer who recently relocated to Singapore. The first month he was staying in the Paterson Edge Condo. Unfortunately, his monthes fees are very high in this area, but the neirborhood is very lovely. Therefore, our customer is looking for a new house in a less expencive area but with a nice community around him.
+
+### SOLUTION:
+Using our clusters, we are going to find to which cluster The Paterson Edge is belong. Then we will highlight all members of this cluster on the SG MAP, and analise it.
+
+From my results, The Paterson Edge  belongs to the biggest cluster. This is good, because our customer can select from different options. For instance, we can propose to our customer consider the SEA VIEW PARK condo in the East Coast Area. It will be much cheaper than Orchard area, but with a lovely neighborhood.
+
+## Discussion 
+### The Business Problem: 
+During relocation to a new country some expats prefer to stay near cultural centers, for instance close to Art galleries. Using our dataset, I can quickly get all residential properties withing a working distance from art galleries. For this porpose I simply filtered my merged dataset by the venue category "Art Gallery". As expected, most places, which are close to some art gallery, are located in the Central parts of Singapore.
+
+## Conclusion
+This project shows that neigbourhood segmentation may be very useful in Singapore, and can be applied to a different business cases. Even using a sample data we got a meaningful results. With current sample dataset we tried a simple kMean clustering. Potentially, this project should be extended to a large dataset. The more advanced clustering algorithms have a potential to produce  interesting  results. 
