@@ -30,13 +30,6 @@ Let's explore the neighborhoods in our dataset. For such place like PAGODA HOUSE
 
 Then I analysed each Neighborhood. First, I grouped rows by neighborhood and by taking the mean of the frequency of occurrence of each category. Next I calculate top 5 venue's categories that located most often. For this porpose, for each venue category sum up the frequency. Not surprisingly, t most common venue's  categories are Bus Station, Coffee Shop,  Food Court, Cafe, Chinese Restaurant.
 
-### Cluster Neighborhoods
-To cluster  neighbourhood the KMeans method was used. The number of clusters was set to 8. I vary different numbers, but with more number of clusters the model prodused many cluster of size 1, with less number of clusters the model prodused one cluster with a huge number of members.
-In the next section we will continue to discuss our results.
-
-## Results.
-
-From the results, I observed that clusters have different size. There is one large cluster with 195 members. THis result is expected, because in Singapore the urban development is very uniform, which means that every neighbourhood is developed to be convinient for its residents. Others clusters size is vary from 7 to 44,and one cluster very small of size 2. 
 
 For the clustering problem one bussines problem was investigated.
 ### The Business Problem: 
